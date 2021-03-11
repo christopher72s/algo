@@ -1,6 +1,11 @@
-/*
- ## Define arrays and access to their values
- */
+const digits = [0,1,2,3,4,5,6,7,8,9];
+
+const first =  digits[0];
+
+const last = digits[9];
+
+const sixth =  digits[6];
+
 
 // Create an array called `digits` with the number from 0 to 9;
 

@@ -1,4 +1,22 @@
 // > Frieda and Francis walk on the street. Frieda is 22 and Francis is 17.
+
+const frieda = {
+
+    name = "frieda", 
+    age = 22,
+}
+
+const francis = {
+
+  name  = "francis",
+  age = 17,
+
+}
+
+
+
+
+}
 //
 // Create two objects, `frieda`, `francis` with the fields :
 //   `age` (an integer) and `name`, (obviously a string)
