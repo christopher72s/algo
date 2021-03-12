@@ -2,21 +2,26 @@
 
 const frieda = {
 
-    name = "frieda", 
-    age = 22,
-}
+    name :"frieda", 
+    age : 22,
+
+},
 
 const francis = {
 
-  name  = "francis",
-  age = 17,
+  name  : "francis",
+  age : 17,
 
-}
+},
+
+let canFriedaDrinkAlcohol   = "she drink alcohol?"
+let canFrancisDrinkAlcohol = "Can he drink alcohol?"
 
 
 
 
-}
+
+
 //
 // Create two objects, `frieda`, `francis` with the fields :
 //   `age` (an integer) and `name`, (obviously a string)
