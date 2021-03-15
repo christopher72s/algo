@@ -26,7 +26,7 @@ Remember to look in [the documentation](https://developer.mozilla.org/en-US/docs
 
 For this exercice, you can use those methods: **[push( )](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)**, **[join( )](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)** and **[length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)**.
 
-- Rewrite your array `digits` using one `push()` call per number;
+- Rewrite your array `digits` using one `pus"h()` call per number;
 - Rewrite your constant `last` using `length`;
 - Create another array called `litteralDigits` from **zero to nine** where each array entry is a spelled-out number (E.g. "zero", "one", ...);
 - Use `join()` to create, into the constant `allDigits`, a string like this : `zero - one - two ...`.
