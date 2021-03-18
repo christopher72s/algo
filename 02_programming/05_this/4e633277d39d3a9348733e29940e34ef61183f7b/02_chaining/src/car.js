@@ -23,6 +23,7 @@ const car = {
     console.log(`${this.distance} Km`);
     return this;
   },
+  
 };
 
 module.exports = car;
