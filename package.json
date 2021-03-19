@@ -1,0 +1,12 @@
+{
+  "name": "jokes",
+  "version": "1.0.0",
+  "description": "jeu de blagues",
+  "main": "index.js",
+  "repository": "git@github.com:christopher72s/algo.git",
+  "author": "chris <lebeaugose72@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "awesome-dev-jokes": "^1.0.3"
+  }
+}
