@@ -1,0 +1,10 @@
+{
+  "name": "exo",
+  "version": "1.0.0",
+  "description": "import ",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "awesome-dev-jokes": "^1.0.3"
+  }
+}
