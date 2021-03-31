@@ -1,1 +1,1 @@
-echo "I'm not the solution, replace me!"
+curl "https://swapi.dev/api/planets/1/"
