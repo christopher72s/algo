@@ -1,0 +1,2 @@
+export MONGODB_DATABASE_URL='mongodb+srv://chris:<Xxr8bujad25@>@cluster0.uurlc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+
