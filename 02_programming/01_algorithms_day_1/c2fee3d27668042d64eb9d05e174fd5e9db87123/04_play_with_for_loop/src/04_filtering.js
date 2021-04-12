@@ -2,3 +2,6 @@
 //
 // -  Create an array called `literalDigits` from `zero` to `nine` where each array entry is a spelled-out number;
 // -  Using `length`, write on `stdout` each odd values of the table.
+const literalDigits = [0, 9];
+
+literalDigits.length(2);
