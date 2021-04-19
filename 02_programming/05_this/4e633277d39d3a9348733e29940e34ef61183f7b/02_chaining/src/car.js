@@ -1,29 +1,33 @@
 // Complete and add needed car properties:
+
 const car = {
+  compteur: 0,
   speed: 0,
-  distance: 0,
+  minutes: 0,
 
   start: function () {
-    this.speed = 0;
-    this.distance = 0;
+    this.compteur;
     return this;
   },
 
-  changeSpeed: function (newSpeed) {
-    this.speed = newSpeed;
+  changeSpeed: function (speed) {
+    this.showDistance / this.minute == speed;
+
     return this;
   },
-
   drive: function (minutes) {
-    this.distance += (this.speed * minutes) / 60;
+    this.showDistance / this.speed == minutes;
+
     return this;
   },
-
   showDistance: function () {
-    console.log(`${this.distance} Km`);
+    this.speed * this.minutes == this.showDistance;
+
     return this;
   },
-  
 };
-
 module.exports = car;
+
+//  Devrait afficher la distance lorsque nous ne changeons pas la vitesse
+//  Devrait afficher la distance correcte lorsque nous changeons la vitesse
+//  Devrait pouvoir redémarrer une voiture

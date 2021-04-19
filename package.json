@@ -7,6 +7,7 @@
   "author": "chris <lebeaugose72@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "asdf": "^1.2.1",
     "awesome-dev-jokes": "^1.0.3"
   }
 }
