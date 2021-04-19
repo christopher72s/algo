@@ -1,7 +1,8 @@
-function squareDigits() {
-  // Code here
-  
-}
+function squareDigits(value) {
+    };
 
-// Leave the line below for tests to work
-module.exports = squareDigits;
+  // Code here
+
+  // Leave the line below for tests to work
+  module.exports = squareDigits;
+}
