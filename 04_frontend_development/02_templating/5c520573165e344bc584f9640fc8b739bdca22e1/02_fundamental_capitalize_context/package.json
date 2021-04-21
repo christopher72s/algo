@@ -1,16 +1,14 @@
 {
-  "name": "models_with_mongo",
+  "name": "02_fundamental_capitalize_context",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "populate-db": "ts-node src/scripts/populate-db.ts",
-    "test": "eslint --ext .js,.ts . && sparta test --verbose --runInBand"
+    "test": "eslint --ext .js,.ts . && sparta test"
   },
   "devDependencies": {
     "@types/jest": "26.0.10",
-    "@types/mongodb": "^3.6.12",
     "@typescript-eslint/eslint-plugin": "3.10.1",
     "@typescript-eslint/parser": "3.10.1",
     "eslint": "7.7.0",
@@ -45,8 +43,7 @@
       "src.sample/*"
     ],
     "rules": {
-      "@typescript-eslint/no-inferrable-types": 0,
-      "@typescript-eslint/no-explicit-any": 0
+      "@typescript-eslint/no-inferrable-types": 0
     }
   },
   "jest": {
@@ -59,10 +56,5 @@
       }
     },
     "testEnvironment": "node"
-  },
-  "dependencies": {
-    "@types/dotenv": "^8.2.0",
-    "dotenv": "^8.2.0",
-    "mongodb": "^3.6.6"
   }
 }
