@@ -1,11 +1,15 @@
-{% extends "layout.njk" %} {% block content %}
+{% extends "layout.njk" %} {% block content %} {% block css %}
+<link rel="stylesheet" href="/style/home.css" />
+{% endblock %}
 
 <ul>
   {% for game in games %}
+
   <li>
     <img src="{{ game.cover }}" />
-    {{ game.name }}
+    <a href="/games/{{ game.slug }}"> {{ game.name }} </a>
   </li>
+
   {% endfor %}
 </ul>
 {% endblock %}

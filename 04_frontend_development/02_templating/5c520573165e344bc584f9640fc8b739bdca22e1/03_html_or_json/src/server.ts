@@ -10,6 +10,9 @@ export function makeApp(gameModel: GameModel): core.Express {
     express: app,
   });
   app.set("view engine", "njk");
+
+  app.use("/public", express.static("public"));
+
   app.get("/games", (request, response) => {
     gameModel.getAll().then((games) => {
       if (clientWantsJson(request)) {
@@ -27,7 +30,7 @@ export function makeApp(gameModel: GameModel): core.Express {
         if (clientWantsJson(request)) {
           response.json(game);
         } else {
-          response.render("game", { game });
+          response.render("game_slug", { game });
         }
       }
     });
