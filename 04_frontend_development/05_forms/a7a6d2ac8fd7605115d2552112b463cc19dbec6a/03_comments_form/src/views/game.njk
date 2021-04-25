@@ -1,0 +1,50 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <h1>{{ game.name }}</h1>
+
+  
+  <p>{{ game.summary }}</p>
+
+
+  <p>   No comments yet, add your own</p>
+ <form name="mon-formulaire1" action="/games/:game_slug/comments" method="post">
+<p>
+   <input type="radio" name="civi" value="Mme" /> Madame
+   <input type="radio" name="civi" value="Mlle" /> Mademoiselle
+   <input type="radio" name="civi" value="Mr" /> Monsieur
+</p>
+<p>
+   Votre prénom :<br />
+   <input type="text" name="prenom" value="" />
+</p>
+<p>
+   Votre nom :<br />
+   <input type="text" name="nom" value="" />
+</p>
+<p>
+   Votre mot de passe :<br />
+   <input type="password" name="passe" value="" />
+</p>
+
+
+<p>
+   Votre message :<br />
+   <textarea name="le-message" rows="6" cols="40"></textarea>
+</p>
+<p>
+   <input type="submit" value="Envoyer" />
+   <input type="reset" value="Annuler" />
+</p>
+</form>
+  <img src="{{ game.cover_url }}"/>
+
+{% endblock %}
+
+
+
+
+{# <p>   No comments yet, add your own</p>
+<TEXTAREA name="nom" >veuillez saisir votre commentaire </TEXTAREA>
+  Name: <input type="text" size="10" maxlength="40" name="name" /><br />
+	Password: <input type="password"  name="password" /> #}
