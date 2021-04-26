@@ -2,6 +2,11 @@
 //
 // -  Create an array called `literalDigits` from `zero` to `nine` where each array entry is a spelled-out number;
 // -  Using `length`, write on `stdout` each odd values of the table.
-const literalDigits = [0, 9];
+const literalDigits = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 
-literalDigits.length(2);
+// const filtre = literalDigits.filter((element) => {
+
+// // if (condition) {
+
+// // } else {
+// }
