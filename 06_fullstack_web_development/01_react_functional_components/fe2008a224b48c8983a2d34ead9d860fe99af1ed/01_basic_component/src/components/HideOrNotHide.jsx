@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export const HideOrNotHide = () => {
   const [changerText, setbuttonText] = React.useState(true);
 
-  if (changerText === true) {
+  if (changerText) {
     return (
       <div>
         <button onClick={() => setbuttonText(false)}>Hide content:</button>

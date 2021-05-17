@@ -12,7 +12,6 @@ const PlatformPage = (): JSX.Element => {
       },
     );
   }, []);
-  console.log(platform);
 
   return (
     <div>

@@ -9,9 +9,7 @@ const productToProps = (product) => {
   return {
     headerProps: {
       name: product.name,
-      platformLogos: product.platforms.map(
-        (platform) => platform.platform_logo.url,
-      ),
+      platformLogos: product.platforms.map((platform) => platform.platform_logo.url),
     },
     bodyProps: {
       cover: product.cover.url,
